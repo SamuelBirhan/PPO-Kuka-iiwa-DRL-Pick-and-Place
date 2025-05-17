@@ -55,7 +55,9 @@ Trajectory collection showing sampled robot actions during training.
 5. Visualize training metrics and action distributions
 
 
-![Training Workflow](traning the network using PPO.png)
+![Training Results](trajectoryCollection.png)
+
+![Training Workflow](PPO.png)
 
 The training loop uses PPO with a visual encoder, interacting with a PyBullet environment.
 
