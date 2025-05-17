@@ -55,7 +55,7 @@ Trajectory collection showing sampled robot actions during training.
 5. Visualize training metrics and action distributions
 
 
-![Training Results](trajectoryCollection.png)
+![Training Results](trajectory_collection.png)
 
 ![Training Workflow](PPO.png)
 
