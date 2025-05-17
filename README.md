@@ -16,7 +16,8 @@ This diagram shows the architecture of the PPO-based KUKA pick-and-place pipelin
 
 ## Demo Video
 
-[![Watch the video](vodeo.png)](https://youtu.be/QAKlS_Xm9l8?si=7lwfycuQvNhlpUBT)
+[![Watch the video](vodeo.png)]
+(https://youtu.be/QAKlS_Xm9l8?si=7lwfycuQvNhlpUBT)
 ## Environment Details
 
 - **Simulator**: PyBullet + OpenAI Gym interface
@@ -101,26 +102,4 @@ The reward curve shows stable improvement using the PPO algorithm over training 
 ## License
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**.
-
-## Project Overview
-
-
-
----
-
-## Training Progress
-
-
----
-
-## Policy Visualization
-
-
-
----
-
-## Learning Pipeline
-
-
-
 
