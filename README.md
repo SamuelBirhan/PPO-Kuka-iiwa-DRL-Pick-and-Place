@@ -6,7 +6,6 @@ This project implements a reinforcement learning system for robotic grasping usi
 
 **Institution**: Wrocław University of Science and Technology  
 **Course**: Intermediate Project – Department of Cybernetics and Robotics  
-**Supervisor**: Ph.D. Witold Paluszyński  
 **Author**: Samuel Gebretsadik  
 **Date**: January 29, 2025
 
@@ -36,6 +35,7 @@ This project implements a reinforcement learning system for robotic grasping usi
 ---
 ---
 ## Training Result Visualization
+
 
 ![Project Overview](project.png)
 ---
