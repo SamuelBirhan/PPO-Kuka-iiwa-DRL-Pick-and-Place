@@ -8,9 +8,15 @@ This project implements a reinforcement learning system for robotic grasping usi
 **Course**: Intermediate Project – Department of Cybernetics and Robotics  
 **Author**: Samuel Gebretsadik  
 **Date**: January 29, 2025
+![System Overview](project.png)
 
+This diagram shows the architecture of the PPO-based KUKA pick-and-place pipeline.
 ---
 
+
+## Demo Video
+
+[![Watch the video](vodeo.png)](https://youtu.be/QAKlS_Xm9l8?si=7lwfycuQvNhlpUBT)
 ## Environment Details
 
 - **Simulator**: PyBullet + OpenAI Gym interface
@@ -22,6 +28,7 @@ This project implements a reinforcement learning system for robotic grasping usi
 
 ---
 
+
 ## Reinforcement Learning Setup
 
 - **Algorithm**: Proximal Policy Optimization (PPO)
@@ -31,8 +38,9 @@ This project implements a reinforcement learning system for robotic grasping usi
   - `+0.15` for contact with object
   - `-0.01` step penalty
 - **Libraries**: PyTorch, TensorBoardX, Gym, PyBullet
+![Trajectory Collection](trajectory collection.png)
 
----
+Trajectory collection showing sampled robot actions during training.
 ---
 ## Training Result Visualization
 
@@ -48,6 +56,14 @@ This project implements a reinforcement learning system for robotic grasping usi
 4. Save model and log statistics every season
 5. Visualize training metrics and action distributions
 
+
+![Training Workflow](traning the network using PPO.png)
+
+The training loop uses PPO with a visual encoder, interacting with a PyBullet environment.
+
+![Training Results](result.png)
+
+The reward curve shows stable improvement using the PPO algorithm over training steps.
 ---
 
 ## Results
@@ -60,10 +76,6 @@ This project implements a reinforcement learning system for robotic grasping usi
   - Entropy and value loss curves
   - Action histograms
   - Epsilon/Beta decay curves
-
----
-
-
 
 ---
 
@@ -89,5 +101,26 @@ This project implements a reinforcement learning system for robotic grasping usi
 ## License
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**.
+
+## Project Overview
+
+
+
+---
+
+## Training Progress
+
+
+---
+
+## Policy Visualization
+
+
+
+---
+
+## Learning Pipeline
+
+
 
 
