@@ -8,9 +8,6 @@ This project implements a reinforcement learning system for robotic grasping usi
 **Course**: Intermediate Project – Department of Cybernetics and Robotics  
 **Author**: Samuel Gebretsadik  
 **Date**: January 29, 2025
-![System Overview](project.png)
-
-This diagram shows the architecture of the PPO-based KUKA pick-and-place pipeline.
 ---
 
 
@@ -39,7 +36,7 @@ This diagram shows the architecture of the PPO-based KUKA pick-and-place pipelin
   - `+0.15` for contact with object
   - `-0.01` step penalty
 - **Libraries**: PyTorch, TensorBoardX, Gym, PyBullet
-![Trajectory Collection](trajectory collection.png)
+![Trajectory Collection](trajectory collection .png)
 
 Trajectory collection showing sampled robot actions during training.
 ---
